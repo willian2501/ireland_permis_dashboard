@@ -1,5 +1,11 @@
 # Ireland Employment Permits Dashboard
 
+## Purpose
+
+Help people find companies that can issue a visa to them. This dashboard makes Ireland's official Employment Permits data easy to search, filter, and explore — so applicants can quickly identify which companies are actively sponsoring work permits, in which sectors, counties, and for which nationalities.
+
+---
+
 A fully interactive, client-side dashboard that visualises Ireland's Employment Permits data sourced from official government Google Sheets. Supports **multi-year** viewing (2024, 2025, 2026) with one-click year switching.
 
 **Live data** — the dashboard fetches directly from the Google Sheets API on every page load, so figures are always up to date.
