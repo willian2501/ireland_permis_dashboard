@@ -10,6 +10,9 @@ A fully interactive, client-side dashboard that visualises Ireland's Employment 
 
 **Live data** — the dashboard fetches directly from the Google Sheets API on every page load, so figures are always up to date.
 
+> **2026** is the current/ongoing year — this data is updated regularly by the government and **must** be fetched via the API to stay current.
+> **2024 & 2025** are complete, finalised years whose data will not change. These could be converted to static JSON files in the future to reduce API calls, but 2026 (and any future ongoing year) must continue using the live API.
+
 ---
 
 ## Data Sources (Google Sheets APIs)
