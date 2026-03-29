@@ -19,11 +19,6 @@ A fully interactive, client-side dashboard that visualises Ireland's Employment 
 
 Each year has its own spreadsheet with 4 tabs. All are accessed via the Google Sheets v4 `batchGet` endpoint.
 
-| Year | Spreadsheet ID | API URL |
-|------|---------------|---------|
-| **2024** | `13rRnMJ-nR95UWm4MOC3XUCxcnu2QHkbI29a4Kso6GUw` | [Open](https://sheets.googleapis.com/v4/spreadsheets/13rRnMJ-nR95UWm4MOC3XUCxcnu2QHkbI29a4Kso6GUw/values:batchGet?ranges=permits-to-companies&ranges=permits-by-sector&ranges=permits-by-nationality&ranges=permits-by-county&key=AIzaSyCVYfHKiIvbt_MkVC00FygLLwDBJP8ty84) |
-| **2025** | `1TSCiQsMa6FrUhYJtCj3-YoP8dO0Z68OMEJehI2F8oWU` | [Open](https://sheets.googleapis.com/v4/spreadsheets/1TSCiQsMa6FrUhYJtCj3-YoP8dO0Z68OMEJehI2F8oWU/values:batchGet?ranges=permits-to-companies&ranges=permits-by-sector&ranges=permits-by-nationality&ranges=permits-by-county&key=AIzaSyCVYfHKiIvbt_MkVC00FygLLwDBJP8ty84) |
-| **2026** | `1RygxbPr7yR_3GhIjwTXqAikr86N1JOivZmQn6lMCbkQ` | [Open](https://sheets.googleapis.com/v4/spreadsheets/1RygxbPr7yR_3GhIjwTXqAikr86N1JOivZmQn6lMCbkQ/values:batchGet?ranges=permits-to-companies&ranges=permits-by-sector&ranges=permits-by-nationality&ranges=permits-by-county&key=AIzaSyCVYfHKiIvbt_MkVC00FygLLwDBJP8ty84) |
 
 **Sheets per spreadsheet:**
 
@@ -34,7 +29,6 @@ Each year has its own spreadsheet with 4 tabs. All are accessed via the Google S
 | `permits-by-nationality` | Nationality | No (Issued / Refused / Withdrawn) |
 | `permits-by-county` | County | No (Issued / Refused / Withdrawn) |
 
-**API Key:** `AIzaSyCVYfHKiIvbt_MkVC00FygLLwDBJP8ty84`
 
 > **Note:** Header formats differ across years — see the _Flexible Header Parsing_ section below.
 
